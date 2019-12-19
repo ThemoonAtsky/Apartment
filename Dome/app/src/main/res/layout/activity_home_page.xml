@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="664dp"
+        android:text="WELCOME"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="683dp">
+
+        <Button
+            android:id="@+id/btnHShow"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/ic_action_user"
+            android:text="HOME"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBShow"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/ic_action_parcel"
+            android:text="Parcel"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnPShow"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/ic_action_payment"
+            android:text="Payment"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCShow"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/ic_action_chat"
+            android:text="chat"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnUShow"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/ic_action_user"
+            android:text="Profile"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+
+</RelativeLayout>
